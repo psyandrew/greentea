@@ -12,7 +12,7 @@ import Footer from "./Footer.js"
 
 //<Route path="/teaguide" element={<TeaGuide />} />
 
-
+import Banner from './Banner.js'
 import Selection from './Selection.js'
 import Team from './Team.js'
 import Premium from './Premium.js'
