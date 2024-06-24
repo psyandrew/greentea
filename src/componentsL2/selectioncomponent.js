@@ -6,9 +6,9 @@ export default function SelectionComponent(props) {
   const selectiontag = props.selectiontag[1]; 
 
   return (
-    <div className={`Selection ${selectionimg}`}>
-      <h2 className='seltag font-roboto'>{selectiontag}</h2>
-      <div className="selimg"></div>
-    </div>
+    <span className={`Selection ${selectionimg}`}>
+      <h1 className='seltag font-montserrat'>{selectiontag}</h1>
+      <span className="selimg"></span>
+    </span>
   );
 }

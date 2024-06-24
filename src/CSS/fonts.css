@@ -15,9 +15,13 @@
 /* Montserrat */
 .font-montserrat {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
 }
 
+.font-montserrat-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
 
 /* Playfair Display */
 .font-playfair {
@@ -28,7 +32,7 @@
 /
 .font-playfair-bold {
     font-family: 'Playfair Display', serif;
-    font-weight: 700; 
+    font-weight: 500; 
 }
 
 
@@ -40,7 +44,7 @@
 
 .font-roboto-bold {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700; 
+    font-weight: 900; 
 }
 
 
@@ -54,5 +58,9 @@
 
 /*Font colors*/
 .goldfont{
- color: hsla(49, 100%, 66%, 1);
+    color: hsla(49, 100%, 66%, 1);
+}
+
+.whitefont {
+    color: hsla(112, 0%, 100%, 1);
 }

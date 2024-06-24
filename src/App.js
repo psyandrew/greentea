@@ -9,8 +9,7 @@ import "./CSS/button.css"
 import LandingPage from "./LandingPage.js"
 //import TeaGuide from "./TeaGuide.js"
 //import TeamPage from "./TeamPage.js"
-import Header from "./Header.js"
-//import Footer from "./Footer.js"
+import Footer from "./Footer.js"
 
 //<Route path="/teaguide" element={<TeaGuide />} />
 //<Route path="/aboutus" element={<TeamPage  />} />
@@ -18,10 +17,11 @@ import Header from "./Header.js"
 export default function App() {
   return (
     <Router>
-      <Header />
+
       <Routes>
           <Route path="/" element={<LandingPage />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }
