@@ -6,7 +6,7 @@ export default function ContactUs() {
 
 	const [name, setName] = useState('')
 	const [email, setEmail] = useState('')
-	const [contact, setContact] = useState('')
+	const [contact, setContact] = useState(" ")
 	const [subject, setSubject] = useState('')
 	const [message, setMessage] = useState('')
 
