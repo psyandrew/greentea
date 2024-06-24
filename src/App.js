@@ -29,6 +29,7 @@ export default function App() {
   function LandingPage() {
   return (
     <div className='bodybg'>
+      <Banner />
       <Selection/>
       <Premium/>
       <TeaGuide/>
