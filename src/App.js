@@ -11,7 +11,7 @@ import "./CSS/button.css"
 import Footer from "./Footer.js"
 
 //<Route path="/teaguide" element={<TeaGuide />} />
-//<Route path="/aboutus" element={<TeamPage  />} />
+
 
 import Selection from './Selection.js'
 import Team from './Team.js'
