@@ -1,4 +1,4 @@
-import Banner from './Bannertest.js'
+import Banner from './Banner.js'
 import Selection from './Selection.js'
 import Team from './Team.js'
 import Premium from './Premium.js'
